@@ -1,0 +1,4 @@
+Django==1.10
+django-cors-headers==1.1.0
+djangorestframework==3.4.6
+docutils==0.12

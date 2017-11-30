@@ -1,0 +1,21 @@
+{
+  "name": "dependencias",
+  "version": "1.0.0",
+  "description": "dependencias para el pryecto",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-resource": "^1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "bootstrap": "^3.3.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "run"
+  ],
+  "author": "nhuamani",
+  "license": "ISC"
+}

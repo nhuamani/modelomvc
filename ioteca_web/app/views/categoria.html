@@ -1,0 +1,23 @@
+ <div ng-controller="categoriaCtrl">
+ 	<form action="">
+ 		<fieldset>
+			<label>Nombre:</label>
+			<input type="text" ng-model="categoria.nombre" placeholder="Nombre"><br>
+			<label>Código:</label>
+			<input type="text" ng-model="categoria.codigo" placeholder="Código">
+		</fieldset>
+	</form>
+	<!--<a href="" ng-click="save()">Guardar</a> -->
+	<button class="btn btn-success" ng-click="save()">Guardar</button>
+
+	<table class="table table-bordered">
+		<tr ng-repeat="d in lista | filter: nombre">
+			<td> {{ d.id }} </td>
+			<td> {{ d.nombre }} </td>
+			<td> {{ d.codigo }} </td>
+			<td> {{ d.estado }} </td>
+			<td> <button class="btn btn-primary icon-edit" ng-click="edit(d)">Editar</button></td>
+			<td> <button class="btn btn-danger" ng-click="delete(d)">Eliminar</button></td>
+		</tr>
+	</table>
+</div>
